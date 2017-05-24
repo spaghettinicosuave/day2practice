@@ -1,0 +1,63 @@
+.col-sm-12 {
+  height: 1000px;
+  background-color: #ffff00;
+  outline: 2px solid #000;
+}
+
+#header {
+  height: 200px;
+  background-color: #0000ff;
+  margin-top: 100px;
+}
+
+#nav {
+  height: 50px;
+  background-color: #00ff00;
+}
+
+#content {
+  height: 200px;
+  background-color: #ff0000;
+  outline: 2px solid #000;
+}
+
+#aside {
+  height: 200px;
+  background-color: #00ffff;
+}
+
+.col-sm-3 {
+  height: 200px;
+  background-color: #ffa500;
+  outline: 2px solid #000;
+}
+
+#footer {
+  height: 50px;
+  background-color: #000;
+}
+
+.query-test {
+  width: 50%;
+  height: 400px;
+  background-color: #ff99ff;
+}
+
+/* media query-test */
+
+@media screen and (min-width: 500px) {
+  .query-test {
+    width: 80%;
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .query-test {
+    width: 30%;
+    background-color: green;
+  }
+  h1.myclass {
+    font-size: 400px;
+  }
+}
