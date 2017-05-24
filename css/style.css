@@ -36,3 +36,28 @@
   height: 50px;
   background-color: #000;
 }
+
+.query-test {
+  width: 50%;
+  height: 400px;
+  background-color: #ff99ff;
+}
+
+/* media query-test */
+
+@media screen and (min-width: 500px) {
+  .query-test {
+    width: 80%;
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .query-test {
+    width: 30%;
+    background-color: green;
+  }
+  h1.myclass {
+    font-size: 400px;
+  }
+}
